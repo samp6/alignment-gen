@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
+from requests import requests
 
 response = requests.get('https://www.enchantedlearning.com/wordlist/opposites.shtml')
 
